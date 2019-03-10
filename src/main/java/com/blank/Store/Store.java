@@ -41,6 +41,10 @@ public abstract class Store{
 		return mCustomers;
 	}
 
+	public List<Item> getItems(){
+		return mItems;
+	}
+
 	/**
 	 * Create fake users inside each store for the sake of example
 	 */
@@ -84,5 +88,10 @@ public abstract class Store{
 
 	public void removeFromCart(ShoppingCart shoppingCart, Item item){
 
+	}
+
+	@Override
+	public String toString() {
+		return mId + " | " + mName + " | " + mCustomers.size() + " | " + mItems.size();
 	}
 }
