@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.blank.Factory.AbstractFactory</OriginalElement>
+  <nodes>
+    <node x="2462.4485060690945" y="2154.0">com.blank.Commands.MallCommands.EnterMallCommand</node>
+    <node x="1384.0333781213012" y="0.0">com.blank.Items.Item</node>
+    <node x="1426.9166666666665" y="1449.0">com.blank.Store.ShoeStore</node>
+    <node x="928.9166666666665" y="1449.0">com.blank.Store.GameStore</node>
+    <node x="2386.80834450536" y="1636.0">com.blank.Commands.MallCommands.ExitMallCommand</node>
+    <node x="1170.9166666666665" y="1449.0">com.blank.Store.GroceryStore</node>
+    <node x="2163.4476788023594" y="987.0">com.blank.Observers.Observer</node>
+    <node x="1900.4110060690946" y="1636.0">com.blank.Commands.StoreCommands.EnterStoreCommand</node>
+    <node x="1368.0338235294118" y="832.0">com.blank.Store.Store</node>
+    <node x="1078.5069108285031" y="1658.5">com.blank.Factory.StoreAbstractFactory</node>
+    <node x="2283.4476788023594" y="1393.0">com.blank.Customers.Customer</node>
+    <node x="2115.4476788023594" y="1832.0">com.blank.Mall</node>
+    <node x="1260.1610060690941" y="263.0">com.blank.ShoppingCart.ShoppingCart</node>
+    <node x="36.91666666666674" y="1449.0">com.blank.Factory.AbstractFactory</node>
+    <node x="980.4110060690942" y="595.5">com.blank.Commands.StoreCommands.AddToCartCommand</node>
+    <node x="689.9166666666665" y="1449.0">com.blank.Store.BookStore</node>
+    <node x="1744.4110060690941" y="595.5">com.blank.Commands.StoreCommands.ExitStoreCommand</node>
+    <node x="2385.4476788023594" y="585.0">com.blank.Commands.Invoker</node>
+    <node x="0.0" y="954.0">com.blank.Architectures.Architecture</node>
+    <node x="260.91666666666674" y="1426.5">com.blank.Commands.StoreCommands.RemoveFromCartCommand</node>
+    <node x="2121.283378121301" y="307.5">com.blank.Commands.Command</node>
+    <node x="1383.4110060690941" y="595.5">com.blank.Commands.StoreCommands.CheckoutCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.blank.Mall" target="com.blank.Store.Store">
+      <point x="-103.20000000000005" y="-136.0" />
+      <point x="2205.7476788023596" y="1782.0" />
+      <point x="1674.345238095238" y="1782.0" />
+      <point x="1674.345238095238" y="1353.0" />
+      <point x="1525.0926470588236" y="1353.0" />
+      <point x="-20.94117647058829" y="180.5" />
+    </edge>
+    <edge source="com.blank.Commands.MallCommands.EnterMallCommand" target="com.blank.Mall">
+      <point x="-58.59999999999991" y="-48.0" />
+      <point x="2550.3485060690946" y="2124.0" />
+      <point x="2405.6976788023594" y="2124.0" />
+      <point x="96.75" y="136.0" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.ExitStoreCommand" target="com.blank.Store.Store">
+      <point x="25.083333333333258" y="48.0" />
+      <point x="1919.9943394024276" y="792.0" />
+      <point x="1694.367156862745" y="792.0" />
+      <point x="148.33333333333326" y="-180.5" />
+    </edge>
+    <edge source="com.blank.Factory.StoreAbstractFactory" target="com.blank.Architectures.Architecture">
+      <point x="-98.14285714285711" y="-25.5" />
+      <point x="1094.864053685646" y="1616.0" />
+      <point x="26.416666666666742" y="1616.0" />
+      <point x="26.416666666666742" y="1373.0" />
+      <point x="62.0" y="1373.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="com.blank.Store.GameStore" target="com.blank.Store.Store">
+      <point x="0.0" y="-25.5" />
+      <point x="1039.9166666666665" y="1363.0" />
+      <point x="1441.3279411764706" y="1363.0" />
+      <point x="-104.70588235294122" y="180.5" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.CheckoutCommand" target="com.blank.Store.Store">
+      <point x="41.125" y="48.0" />
+      <point x="1589.0360060690941" y="722.0" />
+      <point x="1555.9227124183008" y="722.0" />
+      <point x="9.888888888888914" y="-180.5" />
+    </edge>
+    <edge source="com.blank.Customers.Customer" target="com.blank.Items.Item">
+      <point x="103.125" y="-81.5" />
+      <point x="2499.0726788023594" y="1373.0" />
+      <point x="2613.9476788023594" y="1373.0" />
+      <point x="2613.9476788023594" y="213.0" />
+      <point x="1528.169741757665" y="213.0" />
+      <point x="68.63636363636363" y="81.5" />
+    </edge>
+    <edge source="com.blank.Store.Store" target="com.blank.Commands.StoreCommands.ExitStoreCommand">
+      <point x="108.77777777777783" y="-180.5" />
+      <point x="1654.8116013071897" y="772.0" />
+      <point x="1819.6610060690941" y="772.0" />
+      <point x="-75.25" y="48.0" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.AddToCartCommand" target="com.blank.Store.Store">
+      <point x="46.375" y="48.0" />
+      <point x="1212.2860060690941" y="782.0" />
+      <point x="1437.256045751634" y="782.0" />
+      <point x="-108.77777777777783" y="-180.5" />
+    </edge>
+    <edge source="com.blank.Store.Store" target="com.blank.ShoppingCart.ShoppingCart">
+      <point x="-69.22222222222217" y="-180.5" />
+      <point x="1476.8116013071897" y="762.0" />
+      <point x="1361.9110060690941" y="762.0" />
+      <point x="1361.9110060690941" y="515.0" />
+      <point x="1352.4110060690941" y="515.0" />
+      <point x="-10.25" y="81.0" />
+    </edge>
+    <edge source="com.blank.Store.GroceryStore" target="com.blank.Store.Store">
+      <point x="0.0" y="-25.5" />
+      <point x="1288.9166666666665" y="1373.0" />
+      <point x="1462.269117647059" y="1373.0" />
+      <point x="-83.76470588235293" y="180.5" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.RemoveFromCartCommand" target="com.blank.Store.Store">
+      <point x="116.85714285714289" y="-48.0" />
+      <point x="582.2738095238096" y="1333.0" />
+      <point x="1378.504411764706" y="1333.0" />
+      <point x="-167.52941176470586" y="180.5" />
+    </edge>
+    <edge source="com.blank.Commands.MallCommands.ExitMallCommand" target="com.blank.Commands.Command">
+      <point x="94.33333333333326" y="-48.0" />
+      <point x="2622.641677838693" y="1616.0" />
+      <point x="2646.9750111720264" y="1616.0" />
+      <point x="2646.9750111720264" y="455.0" />
+      <point x="2251.283378121301" y="455.0" />
+      <point x="52.0" y="36.5" />
+    </edge>
+    <edge source="com.blank.Store.Store" target="com.blank.Commands.StoreCommands.CheckoutCommand">
+      <point x="-29.666666666666515" y="-180.5" />
+      <point x="1516.3671568627453" y="742.0" />
+      <point x="1424.5360060690941" y="742.0" />
+      <point x="-123.375" y="48.0" />
+    </edge>
+    <edge source="com.blank.Store.Store" target="com.blank.Commands.StoreCommands.AddToCartCommand">
+      <point x="-148.33333333333326" y="-180.5" />
+      <point x="1397.7004901960786" y="802.0" />
+      <point x="1026.7860060690941" y="802.0" />
+      <point x="-139.125" y="48.0" />
+    </edge>
+    <edge source="com.blank.Store.ShoeStore" target="com.blank.Store.Store">
+      <point x="0.0" y="-25.5" />
+      <point x="1535.9166666666665" y="1373.0" />
+      <point x="1483.2102941176472" y="1373.0" />
+      <point x="-62.82352941176464" y="180.5" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.RemoveFromCartCommand" target="com.blank.Commands.Command">
+      <point x="58.42857142857156" y="-48.0" />
+      <point x="523.8452380952383" y="1323.0" />
+      <point x="632.9731437583946" y="1323.0" />
+      <point x="632.9731437583946" y="525.0" />
+      <point x="2129.9500447879677" y="525.0" />
+      <point x="-69.33333333333331" y="36.5" />
+    </edge>
+    <edge source="com.blank.Customers.Customer" target="com.blank.Observers.Observer">
+      <point x="46.875" y="-81.5" />
+      <point x="2442.8226788023594" y="1233.0" />
+      <point x="2258.4476788023594" y="1233.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.RemoveFromCartCommand" target="com.blank.ShoppingCart.ShoppingCart">
+      <point x="-58.42857142857133" y="-48.0" />
+      <point x="406.9880952380954" y="1373.0" />
+      <point x="401.36516246249016" y="1373.0" />
+      <point x="401.36516246249016" y="485.0" />
+      <point x="1270.4110060690941" y="485.0" />
+      <point x="-92.25" y="81.0" />
+    </edge>
+    <edge source="com.blank.Customers.Customer" target="com.blank.Store.Store">
+      <point x="-103.125" y="-81.5" />
+      <point x="2292.8226788023594" y="1313.0" />
+      <point x="1608.8573529411765" y="1313.0" />
+      <point x="62.82352941176464" y="180.5" />
+    </edge>
+    <edge source="com.blank.Mall" target="com.blank.Commands.Invoker">
+      <point x="180.5999999999999" y="-136.0" />
+      <point x="2489.5476788023593" y="1812.0" />
+      <point x="2681.30834450536" y="1812.0" />
+      <point x="2681.30834450536" y="812.0" />
+      <point x="2548.9476788023594" y="812.0" />
+      <point x="54.5" y="58.5" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.CheckoutCommand" target="com.blank.ShoppingCart.ShoppingCart">
+      <point x="-123.375" y="-48.0" />
+      <point x="1424.5360060690941" y="515.0" />
+      <point x="1393.4110060690941" y="515.0" />
+      <point x="30.75" y="81.0" />
+    </edge>
+    <edge source="com.blank.Commands.MallCommands.ExitMallCommand" target="com.blank.Customers.Customer">
+      <point x="-94.33333333333326" y="-48.0" />
+      <point x="2433.975011172027" y="1616.0" />
+      <point x="2420.9476788023594" y="1616.0" />
+      <point x="25.0" y="81.5" />
+    </edge>
+    <edge source="com.blank.Store.Store" target="com.blank.Commands.Invoker">
+      <point x="168.1111111111111" y="-180.5" />
+      <point x="1714.144934640523" y="812.0" />
+      <point x="2439.9476788023594" y="812.0" />
+      <point x="-54.5" y="58.5" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.EnterStoreCommand" target="com.blank.Store.Store">
+      <point x="-62.20000000000027" y="-48.0" />
+      <point x="1993.7110060690943" y="1606.0" />
+      <point x="1832.970238095238" y="1606.0" />
+      <point x="1832.970238095238" y="1323.0" />
+      <point x="1587.9161764705882" y="1323.0" />
+      <point x="41.88235294117635" y="180.5" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.CheckoutCommand" target="com.blank.Commands.Command">
+      <point x="123.375" y="-48.0" />
+      <point x="1671.2860060690941" y="545.0" />
+      <point x="2164.6167114546347" y="545.0" />
+      <point x="-34.666666666666686" y="36.5" />
+    </edge>
+    <edge source="com.blank.Factory.StoreAbstractFactory" target="com.blank.Store.GameStore">
+      <point x="0.0" y="-25.5" />
+      <point x="1193.0069108285031" y="1586.0" />
+      <point x="1039.9166666666665" y="1586.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.AddToCartCommand" target="com.blank.Items.Item">
+      <point x="-74.19999999999993" y="-48.0" />
+      <point x="1091.7110060690943" y="475.0" />
+      <point x="1170.6860060690942" y="475.0" />
+      <point x="1170.6860060690942" y="223.0" />
+      <point x="1445.8061053940285" y="223.0" />
+      <point x="-13.72727272727272" y="81.5" />
+    </edge>
+    <edge source="com.blank.Store.BookStore" target="com.blank.Store.Store">
+      <point x="1.1368683772161603E-13" y="-25.5" />
+      <point x="799.4166666666666" y="1353.0" />
+      <point x="1420.3867647058823" y="1353.0" />
+      <point x="-125.6470588235295" y="180.5" />
+    </edge>
+    <edge source="com.blank.Store.Store" target="com.blank.Items.Item">
+      <point x="49.44444444444434" y="-180.5" />
+      <point x="1595.4782679738562" y="742.0" />
+      <point x="1722.9110060690941" y="742.0" />
+      <point x="1722.9110060690941" y="233.0" />
+      <point x="1500.7151963031195" y="233.0" />
+      <point x="41.18181818181813" y="81.5" />
+    </edge>
+    <edge source="com.blank.Factory.StoreAbstractFactory" target="com.blank.Store.BookStore">
+      <point x="-32.71428571428578" y="-25.5" />
+      <point x="1160.2926251142173" y="1596.0" />
+      <point x="799.4166666666665" y="1596.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.blank.Factory.StoreAbstractFactory" target="com.blank.Factory.AbstractFactory">
+      <point x="-65.42857142857133" y="-25.5" />
+      <point x="1127.5783393999318" y="1606.0" />
+      <point x="138.91666666666674" y="1606.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.CheckoutCommand" target="com.blank.Items.Item">
+      <point x="41.125" y="-48.0" />
+      <point x="1589.0360060690941" y="243.0" />
+      <point x="1486.9879235758467" y="243.0" />
+      <point x="27.45454545454544" y="81.5" />
+    </edge>
+    <edge source="com.blank.Commands.MallCommands.ExitMallCommand" target="com.blank.Mall">
+      <point x="35.375" y="48.0" />
+      <point x="2563.68334450536" y="1792.0" />
+      <point x="2437.9476788023594" y="1792.0" />
+      <point x="129.0" y="-136.0" />
+    </edge>
+    <edge source="com.blank.Factory.StoreAbstractFactory" target="com.blank.Store.ShoeStore">
+      <point x="65.42857142857133" y="-25.5" />
+      <point x="1258.4354822570745" y="1606.0" />
+      <point x="1535.9166666666665" y="1606.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.blank.Commands.MallCommands.EnterMallCommand" target="com.blank.Commands.Command">
+      <point x="117.1999999999997" y="-48.0" />
+      <point x="2726.148506069094" y="2134.0" />
+      <point x="2720.5083445053597" y="2134.0" />
+      <point x="2720.5083445053597" y="445.0" />
+      <point x="2268.6167114546342" y="445.0" />
+      <point x="69.33333333333326" y="36.5" />
+    </edge>
+    <edge source="com.blank.Commands.Invoker" target="com.blank.Commands.Command">
+      <point x="-54.5" y="-58.5" />
+      <point x="2439.9476788023594" y="475.0" />
+      <point x="2216.6167114546342" y="475.0" />
+      <point x="17.333333333333314" y="36.5" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.RemoveFromCartCommand" target="com.blank.Items.Item">
+      <point x="-175.28571428571422" y="-48.0" />
+      <point x="290.1309523809525" y="1363.0" />
+      <point x="379.36516246249016" y="1363.0" />
+      <point x="379.36516246249016" y="183.0" />
+      <point x="1390.8970144849377" y="183.0" />
+      <point x="-68.63636363636363" y="81.5" />
+    </edge>
+    <edge source="com.blank.Factory.StoreAbstractFactory" target="com.blank.Store.GroceryStore">
+      <point x="32.71428571428578" y="-25.5" />
+      <point x="1225.721196542789" y="1596.0" />
+      <point x="1288.9166666666665" y="1596.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.blank.Mall" target="com.blank.Commands.MallCommands.ExitMallCommand">
+      <point x="103.19999999999982" y="-136.0" />
+      <point x="2412.147678802359" y="1782.0" />
+      <point x="2492.93334450536" y="1782.0" />
+      <point x="-35.375" y="48.0" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.AddToCartCommand" target="com.blank.Commands.Command">
+      <point x="148.39999999999998" y="-48.0" />
+      <point x="1314.3110060690942" y="535.0" />
+      <point x="2147.283378121301" y="535.0" />
+      <point x="-52.0" y="36.5" />
+    </edge>
+    <edge source="com.blank.Mall" target="com.blank.Customers.Customer">
+      <point x="51.59999999999991" y="-136.0" />
+      <point x="2360.5476788023593" y="1812.0" />
+      <point x="2376.30834450536" y="1812.0" />
+      <point x="2376.30834450536" y="1616.0" />
+      <point x="2395.9476788023594" y="1616.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="com.blank.Mall" target="com.blank.Factory.StoreAbstractFactory">
+      <point x="-154.80000000000018" y="-136.0" />
+      <point x="2154.147678802359" y="1802.0" />
+      <point x="1135.7569108285031" y="1802.0" />
+      <point x="-57.25" y="25.5" />
+    </edge>
+    <edge source="com.blank.Commands.MallCommands.EnterMallCommand" target="com.blank.Customers.Customer">
+      <point x="0.0" y="-48.0" />
+      <point x="2608.9485060690945" y="2124.0" />
+      <point x="2698.5083445053597" y="2124.0" />
+      <point x="2698.5083445053597" y="1606.0" />
+      <point x="2470.9476788023594" y="1606.0" />
+      <point x="75.0" y="81.5" />
+    </edge>
+    <edge source="com.blank.Mall" target="com.blank.Architectures.Architecture">
+      <point x="-180.60000000000014" y="-136.0" />
+      <point x="2128.347678802359" y="1812.0" />
+      <point x="15.416666666666742" y="1812.0" />
+      <point x="15.416666666666742" y="1373.0" />
+      <point x="20.666666666666515" y="1373.0" />
+      <point x="-41.333333333333485" y="58.5" />
+    </edge>
+    <edge source="com.blank.Factory.AbstractFactory" target="com.blank.Architectures.Architecture">
+      <point x="0.0" y="-25.5" />
+      <point x="138.91666666666674" y="1373.0" />
+      <point x="103.33333333333348" y="1373.0" />
+      <point x="41.333333333333485" y="58.5" />
+    </edge>
+    <edge source="com.blank.Factory.StoreAbstractFactory" target="com.blank.Store.Store">
+      <point x="98.14285714285711" y="-25.5" />
+      <point x="1291.1497679713602" y="1616.0" />
+      <point x="1655.4166666666665" y="1616.0" />
+      <point x="1655.4166666666665" y="1363.0" />
+      <point x="1504.1514705882353" y="1363.0" />
+      <point x="-41.88235294117658" y="180.5" />
+    </edge>
+    <edge source="com.blank.Customers.Customer" target="com.blank.ShoppingCart.ShoppingCart">
+      <point x="65.625" y="-81.5" />
+      <point x="2461.5726788023594" y="1223.0" />
+      <point x="2363.9476788023594" y="1223.0" />
+      <point x="2363.9476788023594" y="495.0" />
+      <point x="1434.4110060690941" y="495.0" />
+      <point x="71.75" y="81.0" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.AddToCartCommand" target="com.blank.ShoppingCart.ShoppingCart">
+      <point x="0.0" y="-48.0" />
+      <point x="1165.9110060690941" y="505.0" />
+      <point x="1311.4110060690941" y="505.0" />
+      <point x="-51.25" y="81.0" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.EnterStoreCommand" target="com.blank.Commands.Command">
+      <point x="-2.2737367544323206E-13" y="-48.0" />
+      <point x="2055.911006069094" y="1576.0" />
+      <point x="2141.9476788023594" y="1576.0" />
+      <point x="2141.9476788023594" y="565.0" />
+      <point x="2199.283378121301" y="565.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="com.blank.Mall" target="com.blank.Commands.StoreCommands.EnterStoreCommand">
+      <point x="-25.800000000000182" y="-136.0" />
+      <point x="2283.147678802359" y="1752.0" />
+      <point x="2133.661006069094" y="1752.0" />
+      <point x="77.74999999999977" y="48.0" />
+    </edge>
+    <edge source="com.blank.Store.Store" target="com.blank.Customers.Customer">
+      <point x="125.64705882352928" y="180.5" />
+      <point x="1671.6808823529411" y="1283.0" />
+      <point x="2349.0726788023594" y="1283.0" />
+      <point x="-46.875" y="-81.5" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.ExitStoreCommand" target="com.blank.Commands.Command">
+      <point x="0.0" y="-48.0" />
+      <point x="1894.9110060690941" y="555.0" />
+      <point x="2181.9500447879677" y="555.0" />
+      <point x="-17.333333333333343" y="36.5" />
+    </edge>
+    <edge source="com.blank.ShoppingCart.ShoppingCart" target="com.blank.Items.Item">
+      <point x="-51.25" y="-81.0" />
+      <point x="1311.4110060690941" y="233.0" />
+      <point x="1459.5333781213012" y="233.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.ExitStoreCommand" target="com.blank.Customers.Customer">
+      <point x="125.41666666666674" y="48.0" />
+      <point x="2020.327672735761" y="802.0" />
+      <point x="2152.9476788023594" y="802.0" />
+      <point x="2152.9476788023594" y="1243.0" />
+      <point x="2424.0726788023594" y="1243.0" />
+      <point x="28.125" y="-81.5" />
+    </edge>
+    <edge source="com.blank.Commands.StoreCommands.EnterStoreCommand" target="com.blank.Customers.Customer">
+      <point x="62.19999999999982" y="-48.0" />
+      <point x="2118.1110060690944" y="1586.0" />
+      <point x="2295.9476788023594" y="1586.0" />
+      <point x="-100.0" y="81.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5253470625210949" x="1771.7689967143071" y="429.2268384778941" />
+  <SelectedNodes>
+    <node>com.blank.Factory.AbstractFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
