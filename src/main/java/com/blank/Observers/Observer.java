@@ -1,6 +1,6 @@
 package com.blank.Observers;
 
-public abstract class Observer {
+public interface  Observer {
 
-	public abstract void _notify();
+	public abstract void _notify(Object o);
 }

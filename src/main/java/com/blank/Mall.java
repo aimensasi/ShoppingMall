@@ -86,6 +86,7 @@ public class Mall {
 		mCurrentCustomer = customer;
 		mCustomers.add(mCurrentCustomer);
 
+
 		displayAvailableActions();
 	}
 

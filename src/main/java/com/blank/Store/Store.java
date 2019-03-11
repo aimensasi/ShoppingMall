@@ -22,6 +22,7 @@ public abstract class Store{
 	private String mName;
 	private Customer mCurrentCustomer;
 	private List<Customer> mCustomers = new ArrayList<>();
+	private List<Customer> mObservers = new ArrayList<>();
 	private List<Item> mItems = new ArrayList<>();
 	private Faker mFake;
 
@@ -50,6 +51,7 @@ public abstract class Store{
 	public List<Item> getItems(){
 		return mItems;
 	}
+
 
 	/**
 	 * Create fake users inside each store for the sake of example
@@ -84,6 +86,9 @@ public abstract class Store{
 
 		mCurrentCustomer = customer;
 		mCustomers.add(mCurrentCustomer);
+
+//		Subscribe to store observer
+		mObservers.add(mCurrentCustomer);
 
 		displayAvailableActions();
 	}
@@ -148,6 +153,8 @@ public abstract class Store{
 				case 4:
 					onCheckout(scanner, invoker);
 					break;
+				case 5:
+					addItemToStore(scanner, invoker);
 				case 99:
 					invoker.undo();
 					break;
@@ -175,6 +182,9 @@ public abstract class Store{
 		System.out.println("2 - Display Shopping Cart Items");
 		System.out.println("3 - Add Item To Cart");
 		System.out.println("4 - Proceed To Checkout");
+
+//		This option for the sake of demonstrating the use of observers
+		System.out.println("5 - Add Item to store");
 		if (invoker.hasUndo()){
 			System.out.println("99 - To Undo Previous Command");
 		}
@@ -222,7 +232,7 @@ public abstract class Store{
 		mCurrentCustomer.getShoppingCart().displayItems();
 		double totalPrice = mCurrentCustomer.getShoppingCart().getTotalPrice();
 		System.out.println("Total Price : " + totalPrice);
-		System.out.print("Are you sure you want to checkout: Yes/No");
+		System.out.print("Are you sure you want to checkout: Yes/No  ");
 
 //		consumes the leftover line before getting the user response
 		scanner.nextLine();
@@ -236,5 +246,31 @@ public abstract class Store{
 			System.out.println("Continue Your Shopping Experience");
 		}
 
+	}
+
+	private void addItemToStore(Scanner scanner, Invoker invoker){
+		//		consumes the leftover line before getting the user response
+		scanner.nextLine();
+
+		System.out.println("Adding New Item to The Store : ");
+
+		System.out.print("Enter Item Name : ");
+		String name = scanner.nextLine();
+		System.out.println();
+
+		System.out.print("Enter Item Price : ");
+		double price = scanner.nextDouble();
+		System.out.println();
+
+
+		Item item = new Item();
+		item.setName(name);
+		item.setPrice(price);
+		item.setStoreId(mId);
+
+		mItems.add(item);
+		for (Customer customer : mObservers){
+			customer._notify(item);
+		}
 	}
 }

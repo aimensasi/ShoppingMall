@@ -43,16 +43,5 @@ public class Main {
 
 		System.out.println("Please come again later");
 
-
-//		mall.openFakeStores();
-//		System.out.println("Welcome to : " + mall.getName());
-//		System.out.println("____________________________________");
-//		System.out.println("Stores :: ");
-//		System.out.printf("%1s  %-15s   %-7s   %-6s%n","ID", "NAME", "Number Of Customers", "Number Of Items");
-//		System.out.println("---------------------------------------------------");
-//		List<Store> stores = mall.getStores();
-//		for (Store store : stores){
-//			System.out.printf("%1s  %-15s   %-7d   %-6d%n", store.getId(), store.getName(), store.getCustomers().size(), store.getItems().size());
-//		}
 	}
 }

@@ -1,11 +1,13 @@
 package com.blank.Customers;
 
+import com.blank.Items.Item;
+import com.blank.Observers.Observer;
 import com.blank.ShoppingCart.ShoppingCart;
 import com.blank.Store.Store;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Customer {
+public class Customer implements Observer {
 
 	private static final AtomicInteger mIdCount = new AtomicInteger(0);
 
@@ -45,5 +47,12 @@ public class Customer {
 
 	public Store getStore() {
 		return mStore;
+	}
+
+	@Override
+	public void _notify(Object o) {
+		Item item = (Item) o;
+
+		System.out.println("Notification :: Item Has been Added " + item.getName());
 	}
 }

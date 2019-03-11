@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee97c788-46a4-4a10-948b-9f2699914611" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/CheckoutCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/blank/Commands/MallCommands/EnterMallCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/blank/Commands/MallCommands/EnterMallCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/blank/Commands/StoreCommands/EnterStoreCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/blank/Commands/StoreCommands/EnterStoreCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/blank/Commands/StoreCommands/ExitStoreCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/blank/Commands/StoreCommands/ExitStoreCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/blank/Items/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/blank/Items/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/blank/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/blank/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/blank/Mall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/blank/Mall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/blank/ShoppingCart/ShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/blank/ShoppingCart/ShoppingCart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/blank/Store/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/blank/Store/Store.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Commands/Invoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Commands/Invoker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/EnterStoreCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/EnterStoreCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/ExitStoreCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/ExitStoreCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Items/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Customers/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Customers/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Mall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Mall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/ShoppingCart/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/ShoppingCart/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Observers/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Observers/Observer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Store/Store.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="55" selection-end-column="7" />
+            <state relative-caret-position="510">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Mall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+            <state relative-caret-position="202">
+              <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#902#903#0" expanded="true" />
@@ -70,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Store/Store.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="94" column="49" lean-forward="true" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
+            <state relative-caret-position="389">
+              <caret line="265" column="27" lean-forward="true" selection-start-line="265" selection-start-column="27" selection-end-line="265" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#661#662#0" expanded="true" />
@@ -88,89 +75,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Commands/Invoker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-              <folding>
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/CheckoutCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/AddToCartCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Items/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/ShoppingCart/ShoppingCart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Customers/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="55" column="43" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Observers/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -187,6 +107,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>openFakeStores</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -195,7 +120,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/code/ShoppingCart/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Store/Stores.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blank/Customers/Customer.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Commands/Command.java" />
@@ -212,15 +136,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Commands/MallCommands/EnterMallCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Commands/MallCommands/DisplayStoresCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Commands/MallCommands/ExitMallCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blank/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/EnterStoreCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Items/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/ExitStoreCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/CheckoutCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/ShoppingCart/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Commands/Invoker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blank/Mall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blank/Observers/Observer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blank/Customers/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blank/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Store/Store.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blank/Mall.java" />
       </list>
     </option>
   </component>
@@ -306,7 +232,25 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="blank" type="462c0819:PsiDirectoryNode" />
+              <item name="Customers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blank" type="462c0819:PsiDirectoryNode" />
               <item name="Items" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blank" type="462c0819:PsiDirectoryNode" />
+              <item name="Observers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mall" type="b2602c69:ProjectViewProjectNode" />
@@ -395,12 +339,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552209443066</updated>
-      <workItem from="1552209446874" duration="21271000" />
+      <workItem from="1552209446874" duration="23250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21271000" />
+    <option name="totallyTimeSpent" value="23250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -473,13 +417,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Observers/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -579,16 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Customers/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Utils/FakerUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -600,16 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="55" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,43 +575,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/AddToCartCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/ExitStoreCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="162">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Items/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/ShoppingCart/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -724,20 +610,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/ExitStoreCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/AddToCartCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="82">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/ShoppingCart/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Observers/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Customers/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="55" column="43" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Items/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Mall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+        <state relative-caret-position="202">
+          <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#902#903#0" expanded="true" />
@@ -752,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Store/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="94" column="49" lean-forward="true" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
+        <state relative-caret-position="389">
+          <caret line="265" column="27" lean-forward="true" selection-start-line="265" selection-start-column="27" selection-end-line="265" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#661#662#0" expanded="true" />
