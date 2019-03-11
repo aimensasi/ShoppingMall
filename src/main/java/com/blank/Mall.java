@@ -3,6 +3,7 @@ package com.blank;
 import com.blank.Architectures.Architecture;
 import com.blank.Commands.Invoker;
 import com.blank.Commands.MallCommands.ExitMallCommand;
+import com.blank.Commands.StoreCommands.EnterStoreCommand;
 import com.blank.Customers.Customer;
 import com.blank.Factory.StoreAbstractFactory;
 import com.blank.Store.Store;
@@ -94,42 +95,77 @@ public class Mall {
 
 	public void displayAvailableActions(){
 		Invoker invoker = Invoker.getInstance();
-
-		System.out.println();
-		System.out.println("Available Actions : ");
-
-		System.out.println("1 - Display List Of Stores");
-		System.out.println("2 - Display Shopping Cart Items");
-		System.out.println("3 - Enter A Store");
-		System.out.println("4 - Checkout");
-		System.out.println("0 - Exit Mall");
-
 		Scanner scanner = new Scanner(System.in);
 
-		if (!scanner.hasNext()){
-			return;
+		while (true){
+
+			displayActions(invoker);
+
+			int option = scanner.nextInt();
+
+			switch (option){
+				case 1:
+					displayStores();
+					break;
+				case 2:
+					onEnterStoreOptionSelected(scanner, invoker);
+					break;
+				case 99:
+					invoker.undo();
+					break;
+				case 0:
+					ExitMallCommand exitMallCommand = new ExitMallCommand(this, mCurrentCustomer);
+					invoker.execute(exitMallCommand);
+					option = -1;
+					break;
+			}
+
+			if (option == -1){
+				break;
+			}
 		}
-
-		int option = 0;
-
-		switch (option){
-			case 1:
-
-				break;
-			case 2:
-				break;
-			case 3:
-				break;
-			case 4:
-				break;
-			case 0:
-				ExitMallCommand exitMallCommand = new ExitMallCommand(this, mCurrentCustomer);
-				invoker.execute(exitMallCommand);
-				break;
-		}
-
-
 	}
 
+
+	public void displayStores(){
+		System.out.printf("%1s  %-15s   %-7s   %-6s%n","ID", "NAME", "Number Of Customers", "Number Of Items");
+		System.out.println("---------------------------------------------------");
+		for (Store store : mStores){
+			store.display();
+		}
+	}
+
+	public void displayActions(Invoker invoker){
+		System.out.println();
+		System.out.println("Choose an action : ");
+
+		System.out.println("1 - Display List Of Stores");
+		System.out.println("2 - Enter A Store");
+		if (invoker.hasUndo()){
+			System.out.println("99 - To Undo Previous Command");
+		}
+		System.out.println("0 - Exit Mall");
+	}
+
+	public void onEnterStoreOptionSelected(Scanner scanner, Invoker invoker){
+		System.out.println("Enter Store ID : ");
+		displayStores();
+
+		int storeId = scanner.nextInt();
+		Store selectedStore = null;
+
+		for (Store store : mStores){
+			if (store.getId() == storeId){
+				selectedStore = store;
+			}
+		}
+
+		if (selectedStore != null){
+			EnterStoreCommand enterStoreCommand = new EnterStoreCommand(selectedStore, mCurrentCustomer);
+			invoker.execute(enterStoreCommand);
+		}else{
+			System.out.println("Sorry Store Is Not Found.");
+		}
+	}
 
 }

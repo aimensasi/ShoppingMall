@@ -24,4 +24,8 @@ public class Invoker {
 			mUndoCommands.pop().undo();
 		}
 	}
+
+	public boolean hasUndo(){
+		return !mUndoCommands.empty();
+	}
 }

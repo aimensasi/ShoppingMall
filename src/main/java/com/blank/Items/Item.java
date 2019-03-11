@@ -44,4 +44,8 @@ public class Item {
 	public void setPrice(Double price) {
 		mPrice = price;
 	}
+
+	public void display(){
+		System.out.printf("%1s  %-7d   %-15s   %-6f%n", mId, mStoreId, mName, mPrice);
+	}
 }

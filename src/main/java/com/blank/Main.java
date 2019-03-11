@@ -41,6 +41,8 @@ public class Main {
 		Invoker invoker = Invoker.getInstance();
 		invoker.execute(enterMallCommand);
 
+		System.out.println("Please come again later");
+
 
 //		mall.openFakeStores();
 //		System.out.println("Welcome to : " + mall.getName());
