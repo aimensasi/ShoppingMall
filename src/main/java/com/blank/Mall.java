@@ -61,7 +61,7 @@ public class Mall {
 	 * Open stores inside the mall for the sake of example
 	 */
 	public void openFakeStores(){
-		StoreAbstractFactory storeAbstractFactory = new StoreAbstractFactory();
+		StoreAbstractFactory storeAbstractFactory = StoreAbstractFactory.getInstance();
 		Faker faker = new Faker();
 
 		for (Architecture architecture : Architecture.values()){

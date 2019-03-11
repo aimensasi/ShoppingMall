@@ -5,6 +5,15 @@ import com.blank.Store.*;
 
 public class StoreAbstractFactory implements AbstractFactory<Store>{
 
+	private static final StoreAbstractFactory mStoreAbstractFactory = new StoreAbstractFactory();
+
+	public static StoreAbstractFactory getInstance(){
+		return mStoreAbstractFactory;
+	}
+
+	private StoreAbstractFactory(){}
+
+
 
 	@Override
 	public Store create(Architecture architecture) {
@@ -12,16 +21,16 @@ public class StoreAbstractFactory implements AbstractFactory<Store>{
 
 		switch (architecture){
 			case BookStore:
-				store = BookStore.getInstance();
+				store = new BookStore();
 				break;
 			case GameStore:
-				store = GameStore.getInstance();
+				store = new GameStore();
 				break;
 			case ShoeStore:
-				store = ShoeStore.getInstance();
+				store = new ShoeStore();
 				break;
 			case GroceryStore:
-				store = GroceryStore.getInstance();
+				store = new GroceryStore();
 				break;
 		}
 

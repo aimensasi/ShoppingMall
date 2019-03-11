@@ -155,6 +155,7 @@ public abstract class Store{
 					break;
 				case 5:
 					addItemToStore(scanner, invoker);
+					break;
 				case 99:
 					invoker.undo();
 					break;
