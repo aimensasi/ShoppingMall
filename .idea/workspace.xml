@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee97c788-46a4-4a10-948b-9f2699914611" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Factory/StoreAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Factory/StoreAbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Mall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Mall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Store/BookStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Store/BookStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Store/GameStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Store/GameStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Store/GroceryStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Store/GroceryStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Store/ShoeStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Store/ShoeStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blank/Store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blank/Store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,225 +22,12 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Store/Store.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-                <element signature="e#1737#1738#0" expanded="true" />
-                <element signature="e#1759#1760#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Factory/StoreAbstractFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Commands/Invoker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Store/GroceryStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Store/GameStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Store/ShoeStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Store/BookStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Mall.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="63" column="74" lean-forward="true" selection-start-line="63" selection-start-column="74" selection-end-line="63" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClassDiagram.uml">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.blank.Factory.AbstractFactory</OriginalElement>
-              <nodes>
-                <node x="0.0" y="640.0">com.blank.Commands.MallCommands.EnterMallCommand</node>
-                <node x="0.0" y="781.0">com.blank.Items.Item</node>
-                <node x="0.0" y="411.0">com.blank.Store.ShoeStore</node>
-                <node x="238.0" y="411.0">com.blank.Store.GameStore</node>
-                <node x="1813.0" y="640.0">com.blank.Commands.MallCommands.ExitMallCommand</node>
-                <node x="719.0" y="411.0">com.blank.Store.GroceryStore</node>
-                <node x="1449.5" y="0.0">com.blank.Observers.Observer</node>
-                <node x="1482.0" y="640.0">com.blank.Commands.StoreCommands.EnterStoreCommand</node>
-                <node x="291.25" y="0.0">com.blank.Store.Store</node>
-                <node x="446.0" y="882.0">com.blank.Factory.StoreAbstractFactory</node>
-                <node x="1000.0" y="0.0">com.blank.Mall</node>
-                <node x="1432.0" y="101.0">com.blank.Customers.Customer</node>
-                <node x="458.5" y="781.0">com.blank.Factory.AbstractFactory</node>
-                <node x="196.0" y="781.0">com.blank.ShoppingCart.ShoppingCart</node>
-                <node x="662.0" y="640.0">com.blank.Commands.StoreCommands.AddToCartCommand</node>
-                <node x="480.0" y="411.0">com.blank.Store.BookStore</node>
-                <node x="720.0" y="781.0">com.blank.Commands.Invoker</node>
-                <node x="2116.0" y="640.0">com.blank.Commands.StoreCommands.ExitStoreCommand</node>
-                <node x="983.0" y="781.0">com.blank.Architectures.Architecture</node>
-                <node x="1053.0" y="640.0">com.blank.Commands.StoreCommands.RemoveFromCartCommand</node>
-                <node x="1179.5" y="507.0">com.blank.Commands.Command</node>
-                <node x="313.0" y="640.0">com.blank.Commands.StoreCommands.CheckoutCommand</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.blank.Store.GameStore" target="com.blank.Store.Store">
-                  <point x="0.0" y="-25.5" />
-                  <point x="349.0" y="386.0" />
-                  <point x="424.75" y="386.0" />
-                  <point x="-44.5" y="180.5" />
-                </edge>
-                <edge source="com.blank.Store.GroceryStore" target="com.blank.Store.Store">
-                  <point x="0.0" y="-25.5" />
-                  <point x="837.0" y="386.0" />
-                  <point x="602.75" y="386.0" />
-                  <point x="133.5" y="180.5" />
-                </edge>
-                <edge source="com.blank.Commands.MallCommands.ExitMallCommand" target="com.blank.Commands.Command">
-                  <point x="0.0" y="-48.0" />
-                  <point x="1954.5" y="610.0" />
-                  <point x="1302.0714285714287" y="610.0" />
-                  <point x="44.57142857142867" y="36.5" />
-                </edge>
-                <edge source="com.blank.Store.ShoeStore" target="com.blank.Store.Store">
-                  <point x="0.0" y="-25.5" />
-                  <point x="109.0" y="386.0" />
-                  <point x="335.75" y="386.0" />
-                  <point x="-133.5" y="180.5" />
-                </edge>
-                <edge source="com.blank.Commands.StoreCommands.RemoveFromCartCommand" target="com.blank.Commands.Command">
-                  <point x="0.0" y="-48.0" />
-                  <point x="0.0" y="36.5" />
-                </edge>
-                <edge source="com.blank.Customers.Customer" target="com.blank.Observers.Observer">
-                  <point x="0.0" y="-81.5" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="com.blank.Commands.StoreCommands.CheckoutCommand" target="com.blank.Commands.Command">
-                  <point x="0.0" y="-48.0" />
-                  <point x="477.5" y="610.0" />
-                  <point x="1212.9285714285713" y="610.0" />
-                  <point x="-44.57142857142867" y="36.5" />
-                </edge>
-                <edge source="com.blank.Store.BookStore" target="com.blank.Store.Store">
-                  <point x="0.0" y="-25.5" />
-                  <point x="589.5" y="386.0" />
-                  <point x="513.75" y="386.0" />
-                  <point x="44.5" y="180.5" />
-                </edge>
-                <edge source="com.blank.Factory.StoreAbstractFactory" target="com.blank.Factory.AbstractFactory">
-                  <point x="0.0" y="-25.5" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="com.blank.Commands.MallCommands.EnterMallCommand" target="com.blank.Commands.Command">
-                  <point x="0.0" y="-48.0" />
-                  <point x="146.5" y="600.0" />
-                  <point x="1190.642857142857" y="600.0" />
-                  <point x="-66.85714285714289" y="36.5" />
-                </edge>
-                <edge source="com.blank.Commands.StoreCommands.AddToCartCommand" target="com.blank.Commands.Command">
-                  <point x="0.0" y="-48.0" />
-                  <point x="847.5" y="620.0" />
-                  <point x="1235.2142857142858" y="620.0" />
-                  <point x="-22.28571428571422" y="36.5" />
-                </edge>
-                <edge source="com.blank.Commands.StoreCommands.EnterStoreCommand" target="com.blank.Commands.Command">
-                  <point x="0.0" y="-48.0" />
-                  <point x="1637.5" y="620.0" />
-                  <point x="1279.7857142857142" y="620.0" />
-                  <point x="22.28571428571422" y="36.5" />
-                </edge>
-                <edge source="com.blank.Commands.StoreCommands.ExitStoreCommand" target="com.blank.Commands.Command">
-                  <point x="0.0" y="-48.0" />
-                  <point x="2266.5" y="600.0" />
-                  <point x="1324.357142857143" y="600.0" />
-                  <point x="66.85714285714289" y="36.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.5253470625210949" x="436.8408526893838" y="354.7633614379751" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-              </Categories>
-              <SCOPE>Project Files</SCOPE>
-              <VISIBILITY>public</VISIBILITY>
+            <state relative-caret-position="83">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -273,7 +57,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/code/ShoppingCart/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Store/Stores.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Commands/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Commands/EnterStoreCommand.java" />
@@ -304,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Store/ShoeStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Factory/StoreAbstractFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blank/Mall.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -315,11 +99,11 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,53 +122,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mall" type="58d84e3e:PackageViewProjectNode" />
+              <item name="com.blank.mall.mall" type="eaaa3913:PackageViewModuleGroupNode" />
             </path>
             <path>
-              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blank" type="462c0819:PsiDirectoryNode" />
+              <item name="mall" type="58d84e3e:PackageViewProjectNode" />
+              <item name="com.blank.mall.mall" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="com.blank.mall.mall.main" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blank" type="462c0819:PsiDirectoryNode" />
-              <item name="Commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blank" type="462c0819:PsiDirectoryNode" />
-              <item name="Factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blank" type="462c0819:PsiDirectoryNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="mall" type="58d84e3e:PackageViewProjectNode" />
+              <item name="com.blank.mall.mall" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="com.blank.mall.mall.main" type="616d4139:PackageViewModuleNode" />
+              <item name="com.blank" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -396,7 +159,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -458,24 +221,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29975000" />
+    <option name="totallyTimeSpent" value="30322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19599427" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1988555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32961586" />
-      <window_info anchor="bottom" id="Terminal" weight="0.5043371" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32961586" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26641884" />
@@ -483,57 +239,37 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5043371" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.32961586" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Gradle" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Store/StoreAbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Store/GroceryStore.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Store/GameStore.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Store/BookStore.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Store/ShoeStore.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Observers/Observer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Customers/Customer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Items/Item.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ShoppingCart/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Store/StoreAbstractFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Store/GroceryStore.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Store/GameStore.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Store/BookStore.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Store/ShoeStore.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Observers/Observer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Customers/Customer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Items/Item.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ShoppingCart/ShoppingCart.java" />
     <entry file="file://$PROJECT_DIR$/out/production/classes/com/blank/Customers/Customer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -545,8 +281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        <state relative-caret-position="83">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -557,20 +293,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Store/Stores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Architectures/Architecture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Store/Stores.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/RemoveFromCartCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -599,20 +322,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Utils/FakerUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Commands/MallCommands/DisplayStoresCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Utils/FakerUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Commands/MallCommands/DisplayStoresCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blank/Commands/StoreCommands/EnterStoreCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -733,12 +444,12 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.982417643137419" x="394.8869916107907" y="327.6118353385797" />
+          <settings layout="Hierarchic Group" zoom="0.982417643137419" x="395.0" y="328.0" />
           <SelectedNodes />
           <Categories>
+            <Category>Fields</Category>
             <Category>Constructors</Category>
             <Category>Properties</Category>
-            <Category>Fields</Category>
             <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
@@ -775,13 +486,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="178.0" y="251.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="178.0" y="252.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Properties</Category>
-            <Category>Constructors</Category>
             <Category>Fields</Category>
+            <Category>Constructors</Category>
             <Category>Methods</Category>
+            <Category>Properties</Category>
           </Categories>
           <SCOPE>Project Files</SCOPE>
           <VISIBILITY>public</VISIBILITY>
@@ -819,7 +530,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.5253470625210949" x="1771.7689967143071" y="429.2268384778941" />
+          <settings layout="Hierarchic Group" zoom="0.5253470625210949" x="1772.0" y="429.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -848,7 +559,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.44408322496749025" x="272.0" y="521.4319180087848" />
+          <settings layout="Hierarchic Group" zoom="0.44408322496749025" x="272.0" y="521.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -884,10 +595,10 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="685.0" y="216.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-            <Category>Constructors</Category>
             <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
           </Categories>
           <SCOPE>Project Files</SCOPE>
           <VISIBILITY>public</VISIBILITY>
@@ -925,23 +636,35 @@
           </nodes>
           <notes />
           <edges>
+            <edge source="com.blank.Commands.MallCommands.ExitMallCommand" target="com.blank.Commands.Command">
+              <point x="0.0" y="-48.0" />
+              <point x="1954.5" y="610.0" />
+              <point x="1302.0714285714287" y="610.0" />
+              <point x="44.57142857142867" y="36.5" />
+            </edge>
+            <edge source="com.blank.Store.BookStore" target="com.blank.Store.Store">
+              <point x="0.0" y="-25.5" />
+              <point x="589.5" y="386.0" />
+              <point x="513.75" y="386.0" />
+              <point x="44.5" y="180.5" />
+            </edge>
+            <edge source="com.blank.Commands.StoreCommands.AddToCartCommand" target="com.blank.Commands.Command">
+              <point x="0.0" y="-48.0" />
+              <point x="847.5" y="620.0" />
+              <point x="1235.2142857142858" y="620.0" />
+              <point x="-22.28571428571422" y="36.5" />
+            </edge>
             <edge source="com.blank.Store.GameStore" target="com.blank.Store.Store">
               <point x="0.0" y="-25.5" />
               <point x="349.0" y="386.0" />
               <point x="424.75" y="386.0" />
               <point x="-44.5" y="180.5" />
             </edge>
-            <edge source="com.blank.Store.GroceryStore" target="com.blank.Store.Store">
-              <point x="0.0" y="-25.5" />
-              <point x="837.0" y="386.0" />
-              <point x="602.75" y="386.0" />
-              <point x="133.5" y="180.5" />
-            </edge>
-            <edge source="com.blank.Commands.MallCommands.ExitMallCommand" target="com.blank.Commands.Command">
+            <edge source="com.blank.Commands.StoreCommands.EnterStoreCommand" target="com.blank.Commands.Command">
               <point x="0.0" y="-48.0" />
-              <point x="1954.5" y="610.0" />
-              <point x="1302.0714285714287" y="610.0" />
-              <point x="44.57142857142867" y="36.5" />
+              <point x="1637.5" y="620.0" />
+              <point x="1279.7857142857142" y="620.0" />
+              <point x="22.28571428571422" y="36.5" />
             </edge>
             <edge source="com.blank.Store.ShoeStore" target="com.blank.Store.Store">
               <point x="0.0" y="-25.5" />
@@ -953,25 +676,19 @@
               <point x="0.0" y="-48.0" />
               <point x="0.0" y="36.5" />
             </edge>
+            <edge source="com.blank.Factory.StoreAbstractFactory" target="com.blank.Factory.AbstractFactory">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
             <edge source="com.blank.Customers.Customer" target="com.blank.Observers.Observer">
               <point x="0.0" y="-81.5" />
               <point x="0.0" y="25.5" />
             </edge>
-            <edge source="com.blank.Commands.StoreCommands.CheckoutCommand" target="com.blank.Commands.Command">
-              <point x="0.0" y="-48.0" />
-              <point x="477.5" y="610.0" />
-              <point x="1212.9285714285713" y="610.0" />
-              <point x="-44.57142857142867" y="36.5" />
-            </edge>
-            <edge source="com.blank.Store.BookStore" target="com.blank.Store.Store">
+            <edge source="com.blank.Store.GroceryStore" target="com.blank.Store.Store">
               <point x="0.0" y="-25.5" />
-              <point x="589.5" y="386.0" />
-              <point x="513.75" y="386.0" />
-              <point x="44.5" y="180.5" />
-            </edge>
-            <edge source="com.blank.Factory.StoreAbstractFactory" target="com.blank.Factory.AbstractFactory">
-              <point x="0.0" y="-25.5" />
-              <point x="0.0" y="25.5" />
+              <point x="837.0" y="386.0" />
+              <point x="602.75" y="386.0" />
+              <point x="133.5" y="180.5" />
             </edge>
             <edge source="com.blank.Commands.MallCommands.EnterMallCommand" target="com.blank.Commands.Command">
               <point x="0.0" y="-48.0" />
@@ -979,26 +696,20 @@
               <point x="1190.642857142857" y="600.0" />
               <point x="-66.85714285714289" y="36.5" />
             </edge>
-            <edge source="com.blank.Commands.StoreCommands.AddToCartCommand" target="com.blank.Commands.Command">
-              <point x="0.0" y="-48.0" />
-              <point x="847.5" y="620.0" />
-              <point x="1235.2142857142858" y="620.0" />
-              <point x="-22.28571428571422" y="36.5" />
-            </edge>
-            <edge source="com.blank.Commands.StoreCommands.EnterStoreCommand" target="com.blank.Commands.Command">
-              <point x="0.0" y="-48.0" />
-              <point x="1637.5" y="620.0" />
-              <point x="1279.7857142857142" y="620.0" />
-              <point x="22.28571428571422" y="36.5" />
-            </edge>
             <edge source="com.blank.Commands.StoreCommands.ExitStoreCommand" target="com.blank.Commands.Command">
               <point x="0.0" y="-48.0" />
               <point x="2266.5" y="600.0" />
               <point x="1324.357142857143" y="600.0" />
               <point x="66.85714285714289" y="36.5" />
             </edge>
+            <edge source="com.blank.Commands.StoreCommands.CheckoutCommand" target="com.blank.Commands.Command">
+              <point x="0.0" y="-48.0" />
+              <point x="477.5" y="610.0" />
+              <point x="1212.9285714285713" y="610.0" />
+              <point x="-44.57142857142867" y="36.5" />
+            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.5253470625210949" x="436.8408526893838" y="354.7633614379751" />
+          <settings layout="Hierarchic Group" zoom="0.5253470625210949" x="437.0" y="355.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
